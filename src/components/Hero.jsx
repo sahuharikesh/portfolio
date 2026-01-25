@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa"
 
 export default function Hero() {
   return (
-    <section className="min-h-screen flex items-center bg-gray-100 overflow-x-hidden">
+    <section className="min-h-screen flex items-center bg-gray-100 overflow-x-hidden" id="hero">
       <div className="grid grid-cols-1 md:grid-cols-2 w-full">
 
         {/* RIGHT (IMAGE FIRST ON MOBILE) */}
@@ -18,18 +18,18 @@ export default function Hero() {
         </div>
 
         {/* LEFT (TEXT SECOND ON MOBILE) */}
-        <div className="flex flex-col items-center justify-center text-center px-6 md:px-10 order-2 md:order-1">
+        <div className="flex flex-col items-center justify-center text-center py-6 px-6 md:px-10 order-2 md:order-1">
           <h2 className="text-3xl md:text-5xl font-extrabold mb-3 md:mb-4">
             Hi, I’m <span className="text-[#D4AF37]">Harikesh Sahu</span>
           </h2>
 
-          <p className="text-base md:text-lg text-purple-900 max-w-xl">
+          <p className="text-base md:text-lg font-bold text-gray-900 max-w-xl">
             MCA Graduate | Software Engineer | Full-Stack Developer
           </p>
 
           <p className="text-gray-600 text-sm mt-2 max-w-md">
-            Building scalable web applications using React, Node.js, Rails,
-            REST APIs, and modern databases.
+            Building scalable web applications using React, Ruby on Rails, Node.js,
+            REST APIs and modern databases.
           </p>
 
           <div className="mt-6 md:mt-8 flex gap-4 justify-center">
@@ -49,9 +49,17 @@ export default function Hero() {
           </div>
 
           <div className="flex gap-5 mt-5 md:mt-6 text-2xl justify-center">
-            <FaGithub />
-            <FaLinkedin />
-            <FaEnvelope />
+            <a href="https://github.com/sahuharikesh" alt="Github"><FaGithub /></a>  
+            <a href="https://www.linkedin.com/in/harikesh-sahu-a94875155/" alt="Linkdin"><FaLinkedin /></a>
+           <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=sahuharikesh0@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Send email via Gmail"
+            >
+              <FaEnvelope />
+            </a>
+
           </div>
         </div>
 

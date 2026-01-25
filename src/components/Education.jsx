@@ -27,9 +27,9 @@ export default function Education() {
   ]
 
   return (
-    <section id="education" className="py-20  text-center">
+    <section id="education" className="py-20  text-center px-5">
       <h2 className="inline-block border-2 border-black px-6 py-2 font-semibold mb-10">
-        EDUCATION
+        EDUCATIONS
       </h2>
 
       <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
