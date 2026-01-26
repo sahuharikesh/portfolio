@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa"
 
 export default function Hero() {
   return (
-    <section className="min-h-screen flex items-center bg-gray-100 overflow-x-hidden" id="hero">
+    <section className="h-[90vh] flex items-center bg-gray-100 overflow-x-hidden" id="hero">
       <div className="grid grid-cols-1 md:grid-cols-2 w-full">
 
         {/* RIGHT (IMAGE FIRST ON MOBILE) */}
@@ -34,10 +34,13 @@ export default function Hero() {
 
           <div className="mt-6 md:mt-8 flex gap-4 justify-center">
             <a
-              href="#contact"
+              href="Harikesh_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              download
               className="px-5 py-1.5 text-white rounded-lg bg-[#D4AF37] hover:bg-yellow-600 transition"
             >
-              Contact Me
+              Download Resume
             </a>
 
             <a

@@ -26,6 +26,7 @@ export default function About() {
       <button className="mt-8 border bg-black border-black text-white px-6 py-2 hover:bg-white hover:text-black transition">
         READ MORE...
       </button>
+      
     </section>
   )
 }
