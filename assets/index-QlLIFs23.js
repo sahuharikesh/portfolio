@@ -14,7 +14,7 @@ Error generating stack: `+u.message+`
                      max-w-xl mx-auto space-y-6
                      bg-white/10 backdrop-blur-md shadow-xl`,children:[A.jsxs("a",{href:"https://mail.google.com/mail/?view=cm&fs=1&to=sahuharikesh0@gmail.com",target:"_blank",rel:"noopener noreferrer",className:`flex items-center justify-center gap-3 w-full px-6 py-3
                        rounded-xl bg-[#D4AF37] text-black font-medium text-base md:text-lg
-                       hover:bg-yellow-500 transition`,children:[A.jsx(C3,{}),"sahuharikesh0@gmail.com"]}),A.jsxs("a",{href:"https://wa.me/918422053051",target:"_blank",rel:"noopener noreferrer",className:`flex items-center justify-center gap-3 w-full px-6 py-3
+                       hover:bg-yellow-500 transition`,children:[A.jsx(C3,{}),"sahuharikesh0@gmail.com"]}),A.jsxs("a",{href:"https://wa.me/918422053851",target:"_blank",rel:"noopener noreferrer",className:`flex items-center justify-center gap-3 w-full px-6 py-3
                        rounded-xl border border-green-500 text-green-500
                        hover:bg-green-400 hover:text-black transition font-medium`,children:[A.jsx(j6,{}),"WhatsApp: 8422053051"]}),A.jsxs("a",{href:"tel:8097809081",className:`flex items-center justify-center gap-3 w-full px-6 py-3
                        rounded-xl border border-white text-white
