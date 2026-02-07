@@ -22,7 +22,7 @@ export default function Education() {
       id: 4,
       course: "SSC (10th)",
       clg: "Shree Vivekananda Hindi High School (2013–2014)",
-      score :"89 %"
+      score :"89.00 %"
     },
   ]
 
