@@ -4,7 +4,7 @@ import {
   FaMapMarkerAlt,
   FaEnvelope,
 } from "react-icons/fa"
-import contactBg from "../assets/bgImage1.jpg"
+import contactBg from "../assets/bgImage.jpg"
 
 export default function Contact() {
   return (

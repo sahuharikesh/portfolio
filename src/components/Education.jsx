@@ -36,7 +36,7 @@ export default function Education() {
         {education.map((item) => (
           <div
             key={item.id}
-            className="bg-white border border-1 border-[#D4AF37] p-6 text-[#D4AF37] shadow-md rounded text-left hover:shadow-lg transition"
+            className="bg-white border border-1 border-[#D4AF37] p-6 text-[#D4AF37] shadow-md rounded text-left hover:shadow-lg hover:scale-105 transition-transform duration-300"
           >
             <h3 className="font-semibold text-lg mb-2">
               {item.course}
